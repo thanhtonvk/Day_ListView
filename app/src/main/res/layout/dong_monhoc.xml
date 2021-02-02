@@ -13,29 +13,29 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.499" />
+        app:layout_constraintVertical_bias="0.469" />
 
     <TextView
-        android:textSize="30sp"
         android:id="@+id/tv_tenmonhoc"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:text="Tên môn học"
         android:textColor="#E91E63"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintStart_toEndOf="@+id/img_anh"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.022" />
+        app:layout_constraintVertical_bias="0.429" />
 
     <TextView
         android:id="@+id/tv_mota"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="4dp"
+        android:layout_marginStart="20dp"
         android:text="Mô tả môn học"
         android:textColor="#EF1A1A"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -44,6 +44,6 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintStart_toEndOf="@+id/img_anh"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.998" />
+        app:layout_constraintVertical_bias="0.582" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
